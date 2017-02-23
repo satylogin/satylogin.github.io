@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.GEEKkit.com</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="bootstrap.min.js"></script>
+    </head>
+
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/geekit.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="main.html">HOME</a></li>   
+                        <li><a href="#">YOUR COLLEGE</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div id="page_wrapper">
+            <div id="header" class="pagewrapper">
+                <h2>Welcome to <strong>GEEKkit.com</strong></h2>
+                <h4>A place to start Learning...</h4>
+            </div>
+            <div class="content">
+                <h3>HELLO WORLD</h3>
+                <p>Let us write our first C program in C language. The problem is classic Hello world</p>
+            </div>
+            <div id="code" class="code">
+            <div class="total_code">
+            <div id="code" class="col-md-6 total_code-left">
+                <h3><strong>CODE</strong></h3>
+                <p>#include< stdio.h><br><br>int main()<br>{<br><span style="margin-left :40px;">printf("HELLO WORLD\n");</span><br><br><span style="margin-left: 40px;">return 0;</span><br>}<br>
+                </p>
+                <hr>
+            </div> 
+            
+            <div class="col-md-6 total_code-right">        <img src="images/1.jpg"></div>
+            
+            <div id="execute" class="execute"><br>
+                <h3><br><br><br><strong>HOW TO EXECUTE</strong></h3>
+                
+                <div class="col-md-6 total_code-left">
+                    <p><br><br><br> Go on and write the code in the editor, compile and run the code.<br>For linux users, type ctrl+alt+t to open the terminal. Then type vi hello_world.c <br> This will open a new file called hello_world.c . <br>hello world is the name of the file and .c is the extension that tells the compiler that this file is a c program source code<br> press "i" to start typing, "i" stands for insert mode. type the following code in the file. <br>To save and exit, press "esc" Then type ":x" and then enter. Now you have saved and exit. <br> To compile the code , type <strong>gcc hello_world.c</strong>. This will compile the code<br>Now the final step, type ./a.out to run the program</p>
+                </div>
+                <div class="col-md-6 total_code-right"><img src="images/2.jpg"></div><hr>
+                <div class="disect">
+                    <p>
+                        <h4><strong>Let us disect</strong></h4>
+                        <strong>#include< stdio.h> </strong> :<br>
+                        This means that we are telling the compiler to include a header file called stdio.h   (   .h means header) which has functions like scanf and printf that helps us to take input and give output. We will include a separate article on #include<br><hr> <strong>int main() {} </strong> :<br> Every C function must have a main function. This is the place from where the files start to execute. int means the return type of the function . int is a data type. We will add another article on data types in c :<br><hr> <strong>return 0; </strong> : <br> This is the return value of the function. It means what the function returns on calling the function <br>For now just memorise that these will always be in your c program, no matter whatever program you are making<hr><br> And finally <strong>printf("hello world\n");</strong><br> It says to print the string "hello world" on screen <br>\n stands for a new line. <br><hr>It will be easy to write code if you memorise the steps . With time, As you read further, you will understand these things in more detail.And it will give you a little bit of confidence if you are able to write code. <hr><br>
+                    </p>
+                </div>
+            </div>
+            <img src="images/3.jpg">
+        </div>
+        </div>
+        </div><br><br>
+        <div class="footer">
+            <div class="container">
+                <div class="col-md-3 footer-logo">
+                    <a href="home.php"><img src="images/geekit.png" title="brand-logo" class="pull-left" height="70%" width="80%" /></a>
+                </div>
+                <div class="col-md-7 footer-links">
+                    <ul class="unstyled-list list-inline">
+                        <li><a href="#"> Faq</a> <span> </span></li>
+                        <li><a href="#"> Terms and Conditions</a> <span> </span></li>
+                        <li><a href="#">Help us</a></li>
+                        <li><a href="contact.html"> Contact</a> </li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                </div>
+                <div class="col-md-2 footer-social">
+                    <ul class="unstyled-list list-inline">
+                        <li><a class="pin" href="#"><span> <img src="images/footer-social.png"></span></a></li>
+                        <li><a class="twitter" href="http://www.twitter.com"><span> </span></a></li>
+                        <li><a class="facebook" href="http://www.facebook.com"><span> </span></a></li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </body>
+</html>

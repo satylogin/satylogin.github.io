@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<title>www.GEEKkit.com</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="bootstrap.min.js"></script>
+
+	</head>
+
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="images/geekit.png"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="main.html">HOME</a></li>   
+						<li><a href="#">YOUR COLLEGE</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div id="page_wrapper">
+			<div id="header" class="pagewrapper">
+				<h2>Welcome to <strong>GEEKkit.com</strong></h2>
+				<h4>A place to start Learning...</h4>
+			</div>
+
+			<div id="content" class="content_body">
+				<h4>DATA TYPES IN C</h4><br><br>
+				
+				<p>
+					C language is a bit rich in terms of data types. We have a lot of data types. But we must first define what a data type is. To understand it in a basic form, think of data types as a set of operations that can be performed on those values. Some of them are-<br>
+					<ul class="content">
+						<li>Integer</li>
+						<li>Short Integer</li>
+						<li>Long Integer</li>
+						<li>Long Long Integer</li>
+						<li>Float</li>
+						<li>Double</li>
+						<li>Long Double</li>
+						<li>Character</li>
+					</ul>
+				</p>
+				<hr>
+
+				<h4>int (integer) , short int(short int) , long int (Long integer),long long int(Long Long integer)</h4>
+				<br>
+				<p>
+					Int is the most basic data type in C language.A common mistake is to learn the size of data types. Actually the size of data types depend on your system and not the language you use, In a 64 bit architecture, generally an int is of 4 bytes, a short int is of 2 bytes, a long int is of 4 or 8 bytes, and a long long int is of 8 bytes. The general rule to remember is, a short int cannot be larger than an int. An int cannot be larger than a long int. A long int cannot be larger than an long long int. <br> So let us write some codes to see the size of these data types in the system<br><br>
+					<button><a href="images.html">Click here to show the images</a></button>
+				</p>
+				<br><br>
+
+				<p>
+					The range of values that these data types can store is -2^(sizeof(data types)-1) to  +2^(sizeof(data types)-1)-1. The symbol ^ stands for power. <br> The values that they store is integer. eg -2, -467838, 0, 478229,10,4 etc <br>
+				</p><hr>
+
+				<h4>float(Float), double(Double),long double(Long double)</h4><br>
+				<p>
+					They are used to store large data values. They are also used to store fractional values. But they have precision problem. To understand this, let us look at their sized. <br><br>
+					<button><a href="images.html">Click here to show the images</a></button>
+				</p>
+				<br><br>
+				
+				<p>
+					Now it is common sense to understand why they loose precision. The size of float is also 4 bytes, but it can store larger values . This is by making compromise with the precision. You will learn about it more in your computer architecture classes.
+				</p>
+				<br>
+				
+				<h4>char (Character)</h4>
+				<br>
+				<p>
+					It is used to store a single character.
+					<br><br><button><a href="images.html">Click here to show the images</a></button>
+				</p>
+				<hr>
+				
+				<p>
+					This was just a little introduction to data types to get you started. For reference visit <br><br>
+					<a href="https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/DataTypesSummary.pdf">Data types 1</a><br><br>
+					<a href="https://en.wikipedia.org/wiki/C_data_types">Data types 2</a>
+				</p><hr>
+
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="col-md-3 footer-logo">
+					<a href="index.html"><img src="images/geekit.png" title="brand-logo" class="pull-left" height="70%" width="80%" /></a>
+				</div>
+				<div class="col-md-7 footer-links">
+					<ul class="unstyled-list list-inline">
+						<li><a href="#"> Faq</a> <span> </span></li>
+						<li><a href="#"> Terms and Conditions</a> <span> </span></li>
+						<li><a href="#">Help us</a></li>
+						<li><a href="contact.html"> Contact</a> </li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				<div class="col-md-2 footer-social">
+					<ul class="unstyled-list list-inline">
+						<li><a class="pin" href="#"><span> <img src="images/footer-social.png"></span></a></li>
+						<li><a class="twitter" href="http://www.twitter.com"><span> </span></a></li>
+						<li><a class="facebook" href="http://www.facebook.com"><span> </span></a></li>
+						<div class="clearfix"> </div>
+						</ul>
+					</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</body>
+</html>

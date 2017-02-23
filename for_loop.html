@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html lang = "en">
+<head>
+		<title>GEEKKIT</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/foundation.css">
+		<link rel="stylesheet" type="text/css" href="css/normalise.css">
+		<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+
+	 </head>
+
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container-fluid">
+				    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>                        
+					      </button>
+					      <a class="navbar-brand" href="index.html"><img src="images/geekit.png"></a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="myNavbar">
+					      <ul class="nav navbar-nav navbar-right">
+					        <!--<li><a href="login.php">LOGIN</a></li>-->   
+					      	<li><a href="#">YOUR REGION</a></li>
+					        <li><a href="#contact">CONTACT</a></li>
+					        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+					      </ul>
+				    </div>
+			  </div>
+		</nav>
+
+		<div id = "header">
+				<h3> A place to start learning.... </h3>
+				<hr>
+		</div>
+
+		<div id = "content">
+			<h3> For Loops In C</h3>
+
+			<p>
+				Let us first understand what are loop. Let us take a example. Suppose I ask you to do push ups 15 times. Then you will repeat the same process of going down and coming up by increasing your count every time till you reach 15. This is the most basic idea of a loop. 
+			</p>
+
+			<p>
+				Every loop has an starting condition, called as initialisation. <br>
+				Then is has has to check for a paricular condition to fulfil. That is the condition where it has to stop. It may also be the condition that drive the loop. <br>
+				The third id the update. It is very important condition in a loop.
+				Think about the situation where i say do push ups 15 time, but do not increase your count and start from one. Then you will never stop (Well actually you will.) and so will the computer. So an invalid update or no update may lead us into an infinite loop and cause the program to crash.
+			</p>
+
+			<p>
+				So let us first write a code to print numbers from 1 to 10 and then understand what it means.
+			</p><br>
+				The code is - <br>
+				<img src="images/for_loop_code.png" /> <br><br>
+				The output is - <br>
+				<img src="images/for_loop_out.png" /><br><br>
+
+			<p>
+				The syntax of for loop is of form <br><br>
+				<b>for (initialise; check; update) { } </b><br><br>
+
+				<b>Initialise</b> <br><br>
+				This part of for loop creates an initial state.<br><br>
+				<b>Check</b> <br><br>
+				Before each iteration this check condition is checked. If this eveluates to false, the loop breaks.<br><br>
+				<b>Update</b> <br><br>
+				this updates a counter that we set.<br><br>
+			</p>
+
+			<p>
+				The next exapmle will make it more clear. Let us print table of 3 <br><br>
+				<img src="images/for_loop_code_2.png"><br><br>
+				The output is <br>
+				<img src="images/for_loop_out_2.png"><br><br>
+
+				We will look back to loops again when we will study array.
+			</p>
+
+			<p>
+				Here are some links to practice question.<br>
+				Theses questions only require knowledge of for loop, nothing else. Don't get confused by the title of the questions. These can be done without using array. Just use commonsense<br>
+
+				<a href="https://www.hackerrank.com/challenges/simple-array-sum"> Simple Array Sum (Hackerrank) </a><br><br>
+				<a href="https://www.hackerearth.com/problem/algorithm/life-the-universe-and-everything/">Life Universe and Everything (Hackerearth)</a><br><br>
+				<a href="https://www.hackerearth.com/problem/algorithm/find-factorial/">Factorial (Hackerearth)</a><br><br>
+				<a href="https://www.hackerearth.com/problem/algorithm/find-product/">Find Product</a><br><br>
+			</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,264 @@
+body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+
+
+.navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+    .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+    .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); 
+      width: 100%; 
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: gray;
+      position: relative;
+      top: -620px;
+      font-size: 70px;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  .pop{
+    position: relative;
+   top: -610px;
+   font-size: 20px;
+   left: 160px;
+   color: darkseagreen;
+  }
+  .carousel-caption h4{
+    position: relative;
+    top: -326px;
+    font-size: 20px;
+    color: black;
+  }
+  .carousel-caption .btn{
+    position: relative;
+    top: -309px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: whitesmoke;
+
+  }
+  .containertext-center h3{
+    text-align: center;
+    font-size:  45px;
+
+  }
+   .containertext-center h5{
+    text-align: center;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 55%;
+      height: 60%;
+      opacity: 1.7;
+      position: relative;
+      left: 160px;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+
+    }
+  .footer{
+    background-color: #2d2d30;
+    height: 115px;
+  }
+  a img{
+    position: relative;
+    top: 14px;
+    left: -38px;
+  }
+  nav ul li a{
+    color: white;
+    margin-left: 50px;
+    padding: 10px;    
+  }
+  h5 a{
+    color: white;
+        position: relative;
+    margin-left: 493px;
+    margin-top:       70px;
+  }
+  .container  h5  {
+    color: white;
+        position: relative;
+    margin-left: 493px;
+    margin-top:       70px;
+  }
+  .navbar-brand img{
+    width: 36%;
+    position: relative;
+    top: -17px;
+    left: -21px;
+  }
+  .containertext-center h1{
+    position: relative;
+    left: 540px;
+  }
+
+                                      /*end of home page*/
+  .sign-in-wrapper{
+      text-align: center;
+      margin-top: 86px;
+      background-color: snow;
+    }
+    .signin{
+        background-color: lightgoldenrodyellow;
+        width: 40%;
+        position: relative;
+        left: 420px;
+    }
+    .lol1{
+      margin-top: 12px;
+      margin-bottom: 18px;
+      background-color: lavender;
+      border: 1px solid black;
+    }
+    .user{
+      padding-right: 40px;
+      margin-bottom: 13px;
+    }
+    .lock{
+      padding-right: 40px;
+      margin-bottom: 13px;
+    }
+    .sign-up{
+      background-color: lightgoldenrodyellow;
+      width: 40%;
+      position: relative;
+      left: 425px;
+      top: 25px;
+    }
+    .sign-up h1{
+      position: relative;
+      top: 18px;
+      font-family: cursive;
+      letter-spacing: 2px;
+    }
+    .sign-in-form-top h1{
+        font-family: fantasy;
+    }
+    .t1{
+      position: relative;
+      left: 90px;
+    }
+    .sign-up1 h4{
+      position: relative;
+      top: 36px;
+      left: -120px;
+      font-family: cursive;
+    }
+    .t2{
+      margin-top: 36px;
+      position: relative;
+      left: -103px;
+    }
+    .sub_home_right h6{
+      position: relative;
+      top: -30px;
+      left: 91px;
+    }
+                                      /*end of login and registration page */
+   .pagewrapper h2{
+    margin-top: 90px;
+    text-align: center;
+   }
+   .pagewrapper  h4{
+    margin-left: 710px;
+    color: chocolate;
+   }
+   .content h3{
+    margin-left: 25px;
+    margin-top:  50px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 600;
+   }
+   .content p{
+    margin-left: 25px;
+    color: firebrick;
+    font-family: cursive;
+   }
+   .total_code{
+    margin-left: 25px;
+   }
+   .col-md-6 total_code-left p{
+    margin-left: 25px;
+   }
+   .execute p{
+    margin-left: 25px;
+   }
+   .execute h3{
+      color: forestgreen;
+      position: relative;
+      top: 75px;
+      left: -650px;
+   }
+   .execute h4{
+    color: forestgreen;
+   }
+   .execute img{
+    position: relative;
+    top: -170px;
+    left: 35px;
+    height: 325px;
+   }
+   .disect{
+    position: relative;
+    top: 30px;
+   }
+   .total_code img{
+    margin-top: 10px;
+   }
+   /*end of hello world */
+   .content_body h4{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: cursive;
+    color: darkgreen;
+   }
+   .content_body p{
+    margin-left: 80px;
+    font-weight: 600;
+    font-family: cursive;
+    color: midnightblue;
+   }
+   .content{
+       margin-left: 80px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-family: cursive;
+    color: midnightblue; 
+   }/*end of data types */
+   .size_int{
+    width: 90%;
+    height: 182px;
+   }
